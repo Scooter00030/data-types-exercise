@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*
+		* Exercise Two
+		* Why does the following output true?
+		*/
+
+		// (Answer) - Because "false" is a string/'real value' so that in turn makes it TRUE. And the first value is a true string for (a && b).
+
+		var a = "false";
+		var b = true;
+
+		// "&&" is "and"
+		console.log (a && b);
+
+		/*
+		* Bonus Question: Why does (b && a) log "false"?
+		*/
+
+		// (Answer) - Short circuiting, which logs the first falsy value or last value. The first value is b, which is NOT a 'real value' so it will log back as false.
+
+
+	</script>
+</body>
+</html>
